@@ -1,14 +1,14 @@
-from paddleocr import paddleocr, draw_ocr
-from matplotlib import pyplot as plt
+# from paddleocr import paddleocr, draw_ocr
+# from matplotlib import pyplot as plt
 import cv2
-import os
-import iP
-import imageProcessing as imgprocess
+# import os
+# import iP
+# import imageProcessing as imgprocess
 import miniOCR as mini
   
 # define a video capture object
 vid = cv2.VideoCapture(1)
-  
+#turn off the camera light
 while(True):
       
     # Capture the video frame
@@ -18,13 +18,13 @@ while(True):
     # Display the resulting frame
     cv2.imshow('frame', frame)
     #press p to use paddleOCR read the text
-    if cv2.waitKey(1) & 0xFF == ord('p'):
-        #img_path=".\\screenshot1.png"
-        img = iP.rek(frame)
-    #press e to use easyOCR for get the position of the text
-    if cv2.waitKey(1) & 0xFF == ord('e'):
-        img = imgprocess.rec(frame)
-    #press m to use miniOCR
+    # if cv2.waitKey(1) & 0xFF == ord('p'):
+    #     #img_path=".\\screenshot1.png"
+    #     img = iP.rek(frame)
+    # #press e to use easyOCR for get the position of the text
+    # if cv2.waitKey(1) & 0xFF == ord('e'):
+    #     img = imgprocess.rec(frame)
+    # #press m to use miniOCR
     if cv2.waitKey(1) & 0xFF == ord('m'):
         img = mini.red(frame)
     # press s to take screenshot

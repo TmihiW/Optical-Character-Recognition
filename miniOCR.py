@@ -1,10 +1,4 @@
-import cv2
-import imutils
-import numpy as np
-import save
-from unittest import result
 import easyocr
-
 reader2 = easyocr.Reader(['en'])
 def red(img):
     try:
