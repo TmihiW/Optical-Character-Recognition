@@ -26,7 +26,7 @@ while(True):
     #     img = imgprocess.rec(frame)
     # #press m to use miniOCR
     if cv2.waitKey(1) & 0xFF == ord('m'):
-        img = mini.red(frame)
+        img = mini.red(frame,filter="Temp")
     # press s to take screenshot
     if 0xFF == ord('s'):
         ss = mini.red(frame)
