@@ -1,6 +1,6 @@
 import easyocr
 import save
-reader2 = easyocr.Reader(['en'])
+reader2 = easyocr.Reader(['tr'])
 def red(img,filter):
     try:
         #EasyOCR islemi
