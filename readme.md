@@ -37,7 +37,7 @@ Download python 3.10.0  from [here](https://www.python.org/downloads/release/pyt
 - run in terminal: **pip install --upgrade save**
 - run in terminal: **pip install pylint** 
 - search (ctrl+p) ".pylintrc" file then add **extension-pkg-whitelist=cv2**  which is in the  .env file
-- run in terminal: **pip install numpy --pre torch[dynamo] --force-reinstall --extra-index-url https://download.pytorch.org/whl/nightly/cu117**
+- run in terminal: **pip install numpy --pre torch[dynamo] --force-reinstall --extra-index-url https://download.pytorch.org/whl/nightly/cu102**
 - choose your env file as an interpreter on vs code
 
 - run in terminal: **pip freeze > requirements.txt** to store any additional packages
