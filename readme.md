@@ -35,7 +35,8 @@ Download python 3.10.0  from [here](https://www.python.org/downloads/release/pyt
 - run in terminal **pip install --upgrade torch**
 - run in terminal **pip install --upgrade easyocr**
 - run in terminal **pip install --upgrade save**
-- run in terminal **pip install pylint search with ctrl+p pylintrc file then add extension-pkg-whitelist=cv2 which is in the  .env file**
+- run in terminal **pip install pylint search with ctrl+p pylintrc file then add extension-pkg-whitelist=cv2**
+ which is in the  .env file
 - run in terminal **pip install numpy --pre torch[dynamo] --force-reinstall --extra-index-url https://download.pytorch.org/whl/nightly/cu117**
 - choose your env file as an interpreter on vs code
 
