@@ -17,7 +17,7 @@ Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [
 Download python 3.10.0  from [here](https://www.python.org/downloads/release/python-3100/)
 
 ## Visual Studio Code Terminal Commands
-- run in terminal: **py -m venv .env**
+- run in terminal: **py -m venv .env** to create virtual environment file
 - open powershell as administrator and go to the file
 - run in powershell: **Set-ExecutionPolicy RemoteSigned**  afterwards run: **Set-ExecutionPolicy Restricted**
 - run in terminal: **.env\Scripts\activate**
@@ -28,16 +28,16 @@ Download python 3.10.0  from [here](https://www.python.org/downloads/release/pyt
 - run in terminal: **py -m pip install --upgrade pip** then rename "~ip" files to "pip" if exist in lib folder
 - run in terminal: **pip freeze** to check packages
 
-- run in terminal **pip install opencv-contrib-python**
-- run in terminal **pip uninstall opencv-python-headless -y**
-- run in terminal **pip install opencv-python --upgrade**
-- run in terminal **pip install --upgrade imutils**
-- run in terminal **pip install --upgrade torch**
-- run in terminal **pip install --upgrade easyocr**
-- run in terminal **pip install --upgrade save**
-- run in terminal **pip install pylint search with ctrl+p pylintrc file then add extension-pkg-whitelist=cv2**
+- run in terminal: **pip install opencv-contrib-python**
+- run in terminal: **pip uninstall opencv-python-headless -y**
+- run in terminal: **pip install opencv-python --upgrade**
+- run in terminal: **pip install --upgrade imutils**
+- run in terminal: **pip install --upgrade torch**
+- run in terminal: **pip install --upgrade easyocr**
+- run in terminal: **pip install --upgrade save**
+- run in terminal: **pip install pylint search with ctrl+p pylintrc file then add extension-pkg-whitelist=cv2**
  which is in the  .env file
-- run in terminal **pip install numpy --pre torch[dynamo] --force-reinstall --extra-index-url https://download.pytorch.org/whl/nightly/cu117**
+- run in terminal: **pip install numpy --pre torch[dynamo] --force-reinstall --extra-index-url https://download.pytorch.org/whl/nightly/cu117**
 - choose your env file as an interpreter on vs code
 
 - run in terminal: **pip freeze > requirements.txt** to store any additional packages
