@@ -2,3 +2,9 @@ text: Temp, X: 451, Y: 105
 text: Temp, X: 247, Y: 195
 text: Temp, X: 248, Y: 195
 text: Temp, X: 248, Y: 196
+text: Temp, X: 301, Y: 362
+text: Temp, X: 299, Y: 362
+text: Temp, X: 301, Y: 363
+text: Temp, X: 37, Y: 18
+text: Temp, X: 27, Y: 14
+text: Temp, X: 27, Y: 15
